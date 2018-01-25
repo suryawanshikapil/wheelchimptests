@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [WheelChimp Regression Test Suite]">
+  <parameter name="suiteOwner" value="kapil"/>
+  <listeners>
+    <listener class-name="com.qaprosoft.carina.core.foundation.retry.AnnotationTransformer"/>
+  </listeners>
+  <test name="Wheel Chimp Tests(failed)">
+    <classes>
+      <class name="com.wheelchimp.samples.WheelChimpTests">
+        <methods>
+          <include name="executeBeforeTestSuite"/>
+          <include name="executeAfterTestSuite"/>
+          <include name="testHomePage"/>
+          <include name="executeAfterTestMethod"/>
+          <include name="executeBeforeTestMethod"/>
+          <include name="executeAfterTestClass"/>
+          <include name="executeBeforeTestClass"/>
+        </methods>
+      </class> <!-- com.wheelchimp.samples.WheelChimpTests -->
+    </classes>
+  </test> <!-- Wheel Chimp Tests(failed) -->
+</suite> <!-- Failed suite [WheelChimp Regression Test Suite] -->

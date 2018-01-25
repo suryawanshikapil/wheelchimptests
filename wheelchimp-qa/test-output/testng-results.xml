@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="WheelChimp Regression Test Suite" duration-ms="11002" started-at="2018-01-25T07:20:23Z" finished-at="2018-01-25T07:20:34Z">
+    <groups>
+    </groups>
+    <test name="Wheel Chimp Tests" duration-ms="11002" started-at="2018-01-25T07:20:23Z" finished-at="2018-01-25T07:20:34Z">
+      <class name="com.wheelchimp.samples.WheelChimpTests">
+        <test-method status="PASS" signature="executeBeforeTestSuite(org.testng.ITestContext)[pri:0, instance:com.wheelchimp.samples.WheelChimpTests@d6e7bab]" name="executeBeforeTestSuite" is-config="true" duration-ms="611" started-at="2018-01-24T23:20:22Z" finished-at="2018-01-24T23:20:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@35ff8fc9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBeforeTestSuite -->
+        <test-method status="PASS" signature="executeBeforeTestClass(org.testng.ITestContext)[pri:0, instance:com.wheelchimp.samples.WheelChimpTests@d6e7bab]" name="executeBeforeTestClass" is-config="true" duration-ms="0" started-at="2018-01-24T23:20:23Z" finished-at="2018-01-24T23:20:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@35ff8fc9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBeforeTestClass -->
+        <test-method status="PASS" signature="executeBeforeTestMethod(org.testng.xml.XmlTest, java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.wheelchimp.samples.WheelChimpTests@d6e7bab]" name="executeBeforeTestMethod" is-config="true" duration-ms="5" started-at="2018-01-24T23:20:23Z" finished-at="2018-01-24T23:20:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "Wheel Chimp Tests" verbose:1[parameters:][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=com.wheelchimp.samples.WheelChimpTests]  packages:] ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.wheelchimp.samples.WheelChimpTests.testHomePage()]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@35ff8fc9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBeforeTestMethod -->
+        <test-method status="PASS" signature="testHomePage()[pri:0, instance:com.wheelchimp.samples.WheelChimpTests@d6e7bab]" name="testHomePage" duration-ms="10749" started-at="2018-01-24T23:20:23Z" finished-at="2018-01-24T23:20:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method status="PASS" signature="executeAfterTestMethod(org.testng.ITestResult)[pri:0, instance:com.wheelchimp.samples.WheelChimpTests@d6e7bab]" name="executeAfterTestMethod" is-config="true" duration-ms="186" started-at="2018-01-24T23:20:34Z" finished-at="2018-01-24T23:20:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomePage status=SUCCESS method=WheelChimpTests.testHomePage()[pri:0, instance:com.wheelchimp.samples.WheelChimpTests@d6e7bab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeAfterTestMethod -->
+        <test-method status="PASS" signature="executeAfterTestClass(org.testng.ITestContext)[pri:0, instance:com.wheelchimp.samples.WheelChimpTests@d6e7bab]" name="executeAfterTestClass" is-config="true" duration-ms="1" started-at="2018-01-24T23:20:34Z" finished-at="2018-01-24T23:20:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@35ff8fc9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeAfterTestClass -->
+        <test-method status="PASS" signature="executeAfterTestSuite(org.testng.ITestContext)[pri:0, instance:com.wheelchimp.samples.WheelChimpTests@d6e7bab]" name="executeAfterTestSuite" is-config="true" duration-ms="38" started-at="2018-01-24T23:20:34Z" finished-at="2018-01-24T23:20:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@35ff8fc9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeAfterTestSuite -->
+      </class> <!-- com.wheelchimp.samples.WheelChimpTests -->
+    </test> <!-- Wheel Chimp Tests -->
+  </suite> <!-- WheelChimp Regression Test Suite -->
+</testng-results>

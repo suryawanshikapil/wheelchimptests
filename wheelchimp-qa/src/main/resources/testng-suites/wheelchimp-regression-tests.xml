@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite verbose="1" name="WheelChimp Regression Test Suite">
+
+	<parameter name="suiteOwner" value="kapil"/>
+
+	<listeners>
+	        <listener class-name="com.qaprosoft.carina.core.foundation.retry.AnnotationTransformer"/>
+	</listeners>
+
+	 <test verbose="1" name="Wheel Chimp Tests">
+		<classes>
+			<class name="com.wheelchimp.samples.WheelChimpTests">
+				<methods>
+					<include name="testHomePage" />
+					
+				</methods>
+		    </class>
+		</classes>
+	</test>
+	
+	
+
+</suite>
