@@ -15,7 +15,6 @@ https://github.com/suryawanshikapil/wheelchimptests
 * Go to project location and run following command  
 ```
 mvn clean install
-
 ```
 
 * Import this project into IDE 
@@ -26,9 +25,13 @@ mvn clean install
 **src/main/java** - contains page object classes, API domains and additional utilities  
 **src/main/resources** - contains l18n bundles, configuration properties files and MyBastis profiles if needed
 
-# # Running Test  
+# #Running Test
 * Before running tests make sure you downloaded selenium standalone server jar file and started it by the following command:  
+
+```
 java -jar selenium-server-standalone-3.6.0.jar  
+
+```
 
 * Run test using command line  
  ```
